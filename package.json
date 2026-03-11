@@ -1,0 +1,12 @@
+{
+  "name": "admin-dev-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "weweb serve",
+    "build": "weweb build --name=admin-dev-pipeline --type=element"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  }
+}
