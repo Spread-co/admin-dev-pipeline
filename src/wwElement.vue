@@ -647,5 +647,17 @@ export default {
 @media (max-width: 479px) {
   .spread-dp { padding: 0.75rem; }
 }
+@media (min-width: 480px) {
+  .spread-dp { padding: 1rem; }
+}
+@media (min-width: 768px) {
+  .spread-dp { padding: 1.25rem; }
+}
+@media (min-width: 1024px) {
+  .spread-dp { padding: 1.5rem 2rem; }
+}
+@media (min-width: 1280px) {
+  .spread-dp { padding: 1.5rem 2.5rem; }
+}
 @keyframes spread-dp-spin { to { transform: rotate(360deg); } }
 </style>
