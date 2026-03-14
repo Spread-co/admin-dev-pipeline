@@ -498,6 +498,9 @@ export default {
   box-sizing: border-box;
   padding: 1.5rem;
   background: var(--spread-background);
+  max-width: 1440px;
+  margin-inline: auto;
+  position: relative;
 }
 
 .spread-dp *, .spread-dp *::before, .spread-dp *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -638,5 +641,11 @@ export default {
 .spread-dp__spinner--sm { width: 14px; height: 14px; }
 .spread-dp__inline-spinner { display: inline-block; width: 13px; height: 13px; border: 2px solid var(--spread-border); border-top-color: var(--spread-accent); border-radius: 50%; animation: spread-dp-spin 0.6s linear infinite; flex-shrink: 0; }
 .spread-dp__inline-spinner--white { border-color: rgba(255,255,255,0.3); border-top-color: #fff; }
+@media (max-width: 767px) {
+  .spread-dp { padding: 1rem; }
+}
+@media (max-width: 479px) {
+  .spread-dp { padding: 0.75rem; }
+}
 @keyframes spread-dp-spin { to { transform: rotate(360deg); } }
 </style>
