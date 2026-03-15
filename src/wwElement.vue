@@ -664,16 +664,16 @@ export default {
 /* ── Dark mode ─────────────────────────────────────────────────────── */
 :global(html.dark) .spread-dp {
   background: #000000;
-  color: #f5f0eb;
+  color: #e6d8ca;
   --spread-cream: #18181b;
   --spread-border: rgba(230, 216, 202, 0.12);
-  --spread-text-primary: #f5f0eb;
+  --spread-text-primary: #e6d8ca;
   --spread-text-secondary: rgba(230, 216, 202, 0.65);
   --spread-text-muted: rgba(230, 216, 202, 0.4);
 }
 :global(html.dark) .spread-dp__card { background: #18181b; border-color: rgba(230,216,202,0.12); }
 :global(html.dark) .spread-dp__stage-label { color: rgba(230,216,202,0.5); text-transform: uppercase; }
-:global(html.dark) .spread-dp__step-name { color: #f5f0eb; }
+:global(html.dark) .spread-dp__step-name { color: #e6d8ca; }
 :global(html.dark) .spread-dp__step-meta { color: rgba(230,216,202,0.5); }
 :global(html.dark) .spread-dp__step-bar { background: rgba(230,216,202,0.08); }
 :global(html.dark) .spread-dp__step-bar-fill { background: #ce6632; }
@@ -683,5 +683,5 @@ export default {
 :global(html.dark) .spread-dp__badge--queued { background: rgba(250,204,21,0.12); color: #fbbf24; }
 :global(html.dark) .spread-dp__divider { border-color: rgba(230,216,202,0.08); }
 :global(html.dark) .spread-dp input,
-:global(html.dark) .spread-dp select { background: #160c11; border-color: rgba(230,216,202,0.2); color: #f5f0eb; }
+:global(html.dark) .spread-dp select { background: #160c11; border-color: rgba(230,216,202,0.2); color: #e6d8ca; }
 </style>
